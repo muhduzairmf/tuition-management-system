@@ -12,14 +12,14 @@ To test this website locally, you need to have [Node.js](https://nodejs.org/en/)
 To after install all dependencies, to test this website in development mode, then type
 
 ```Shell
-  npm run dev
+  	npm run dev
 ```
 
 
 To bundle and compile all Svelte files into JavaScript, then type
 
 ```Shell
-  npm run build
+  	npm run build
 ```
 
 
