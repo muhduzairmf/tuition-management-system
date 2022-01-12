@@ -26,7 +26,7 @@ To bundle and compile all Svelte files into JavaScript, then type
 After that, the `/dist` folder will be created. Then to test this website in preview/production mode, then type
 
 ```Shell
-  npm run preview
+  	npm run preview
 ```
 
 
