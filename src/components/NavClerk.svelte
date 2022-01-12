@@ -33,7 +33,7 @@
             </button>
             <ul class="menu">
                 <li class="text-dark"><a class="btn btn-link" href="/clerk/timetable/adjust">Adjust Timetable</a></li>
-                <li class="text-dark"><a class="btn btn-link" href="/clerk/timetable/teacher-availability">Check Teacher<br>Availability</a></li>
+                <li class="text-dark"><a class="btn btn-link" href="/clerk/timetable/teacher-availability">Check Teacher<br>Availability</a></li><br>
             </ul>
         </div>
         <div class="dropdown dropdown-right">

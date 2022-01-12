@@ -79,7 +79,7 @@
                         <th>#</th>
                         <th>Name</th>
                         <th>IC Number</th>
-                        <th>Attend</th>
+                        <th>Pay</th>
                     </tr>
                 </thead>
                 <tbody>

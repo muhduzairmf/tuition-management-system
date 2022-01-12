@@ -14,7 +14,7 @@
                 Teacher <i class="icon icon-caret"></i>
             </button>
             <ul class="menu">
-                <li class="text-dark"><a class="btn btn-link" href="/manager/teacher/approve-salary">Approve Salary<br>Payment</a></li>
+                <li class="text-dark"><a class="btn btn-link" href="/manager/teacher/approve-salary">Approve Salary<br>Payment</a></li><br>
             </ul>
         </div>
         <div class="dropdown dropdown-right">

@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </form>
-            <div class="divider text-content" data-content="OR"></div>
+            <div class="divider text-center" data-content="OR"></div>
             <form action="" class="form-horizontal">
                 <div class="form-group">
                     <div class="col-3">
