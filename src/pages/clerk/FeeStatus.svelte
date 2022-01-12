@@ -1,4 +1,5 @@
 <script>
+    import { Students } from "../../stores";
     import BasicHeader from "../../components/BasicHeader.svelte";
     import NavClerk from "../../components/NavClerk.svelte";
 
@@ -7,7 +8,7 @@
         listStudent = true;
     }
 
-    let students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    let students = $Students
 </script>
 
 <NavClerk />
@@ -84,12 +85,12 @@
                 <tbody>
                     {#each students as s}
                     <tr>
-                        <td>{s}</td>
-                        <td>James Bond</td>
-                        <td>070707-07-0707</td>
+                        <td>{(students.indexOf(s)+1)}</td>
+                        <td>{s.name}</td>
+                        <td>{s.icNum}</td>
                         <td>
                             <div class="form-group">
-                                {#if s === 3 || s === 6 || s === 9}
+                                {#if (students.indexOf(s)+1) === 3 || (students.indexOf(s)+1) === 6 || (students.indexOf(s)+1) === 9}
                                 <label class="form-switch">
                                     <input type="checkbox" checked>
                                     <i class="form-icon"></i>

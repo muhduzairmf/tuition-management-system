@@ -1,13 +1,14 @@
 <script>
     import NavTeacher from "../../components/NavTeacher.svelte";
     import BasicHeader from "../../components/BasicHeader.svelte";
+    import { Students } from "../../stores";
 
     let listStudent = false;
     const chosingClass = () => {
         listStudent = true;
     }
 
-    let students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    let students = $Students
 </script>
 
 <NavTeacher />
@@ -59,9 +60,9 @@
                 <tbody>
                     {#each students as s}
                     <tr>
-                        <td>{s}</td>
-                        <td>James Bond</td>
-                        <td>070707-07-0707</td>
+                        <td>{(students.indexOf(s)+1)}</td>
+                        <td>{s.name}</td>
+                        <td>{s.icNum}</td>
                         <td>
                             <div class="form-group">
                                 <label class="form-switch">

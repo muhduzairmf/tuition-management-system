@@ -1,13 +1,14 @@
 <script>
     import NavTeacher from "../../components/NavTeacher.svelte";
     import BasicHeader from "../../components/BasicHeader.svelte";
+    import { Students } from "../../stores";
 
     let listStudent = false;
     const chosingClass = () => {
         listStudent = true;
     }
 
-    let students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    let students = $Students
 </script>
 
 <NavTeacher />
@@ -58,18 +59,18 @@
                 <tbody>
                     {#each students as s}
                     <tr>
-                        <td>{s}</td>
-                        <td class="px-2">James Bond</td>
-                        <td class="px-2">070707-07-0707</td>
-                        <td class="px-2">15</td>
-                        <td class="px-2">+11 1111 1111</td>
-                        <td class="px-2">james@email.com</td>
-                        <td class="px-2">Form 1-3</td>
-                        <td class="px-2">Jack Bond</td>
-                        <td class="px-2">+11 2222 2222</td>
-                        <td class="px-2">New York City</td>
-                        <td class="px-2">SK New York City</td>
-                        <td class="px-2">English, Mathematics, Science</td>
+                        <td>{(students.indexOf(s)+1)}</td>
+                        <td class="px-2">{s.name}</td>
+                        <td class="px-2">{s.icNum}</td>
+                        <td class="px-2">{s.age}</td>
+                        <td class="px-2">{s.phoneNumber}</td>
+                        <td class="px-2">{s.email}</td>
+                        <td class="px-2">{s.category}</td>
+                        <td class="px-2">{s.pName}</td>
+                        <td class="px-2">{s.pPhoneNum}</td>
+                        <td class="px-2">{s.homeAddr}</td>
+                        <td class="px-2">{s.category}</td>
+                        <td class="px-2">{s.subjects}</td>
                     </tr> 
                     {/each}
                 </tbody>
