@@ -34,22 +34,37 @@ After that, the `/dist` folder will be created. Then to test this website in pre
 This system is mainly purposes for the project in BIE 20103 Requirement Engineering course in my university. For now, there is no real data integration to any backend. This website is only created from my team to enhance our knowledge about the requirement engineering concepts and principles.     
 
 
+There are four main users to use this system. The view the related webpages based on the requirements (See List of requirements to be fulfilled down below).      
+
+STUDENT : `https://my-tuition-management-system.web.app/student/register`       
+TEACHER : `https://my-tuition-management-system.web.app/teacher`        
+CLERK : `https://my-tuition-management-system.web.app/clerk`       
+MANAGER : `https://my-tuition-management-system.web.app/manager`
+
+
 ## **List of requirements to be fulfilled**     
 
 1. Register student   
+
 ![Register student](banners/banner1.jpeg)    
 
 2. Register teacher     
+
 ![Register teacher](banners/banner2.jpeg)      
 
 3. Manage subject timetable      
+
 ![Manage subject timetable](banners/banner3.jpeg)      
 
+
 4. Manage attendance      
+
 ![Manage attendance](banners/banner4.jpeg)      
 
 5. Manage student fee     
+
 ![Manage student fee](banners/banner5.jpeg)     
 
 6. Manage teacher salary record     
+
 ![Manage teacher salary record](banners/banner6.jpeg)     
